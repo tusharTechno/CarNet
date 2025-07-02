@@ -40,10 +40,6 @@ carNet/
 - All main pages are in the `pages` directory.
 - Update content as needed in the respective HTML files.
 
-## SEO & Privacy
-
-- All pages are blocked from search engines using both meta tags and `robots.txt`.
-
 ## License
 
 This project is for demonstration and educational purposes only.
