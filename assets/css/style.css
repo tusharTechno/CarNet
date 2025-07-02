@@ -541,6 +541,8 @@ a:hover {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    align-items:center;
+    background-color:#f1f1f1;
 }
 
 .deal-image {
@@ -905,6 +907,19 @@ hr {
     opacity: 0.1;
     margin: 2rem 0;
 }
+
+
+.no-image {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.no-image p{
+    font-size: 1.2rem;
+    line-height:1;
+    font-weight:600;
+}
+
 
 /** 404 **/
 

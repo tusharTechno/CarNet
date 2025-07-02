@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CarNet.com | Used Car Listings</title>
-    <meta name="title" content="CarNet.com | Used Car Listings">
-    <meta name="description" content="Browse used car listings on CarNet.com. Find cars, bikes, SUVs, and trucks with transparent pricing and vehicle history.">
-    <meta name="keywords" content="used cars, car listings, SUVs, trucks, bikes, sedans, hatchbacks, car deals, vehicle history, CarNet">
+    <meta name="title" content="CarNet.com | Used Car Listings" />
+    <meta
+      name="description"
+      content="Browse used car listings on CarNet.com. Find cars, bikes, SUVs, and trucks with transparent pricing and vehicle history."
+    />
+    <meta
+      name="keywords"
+      content="used cars, car listings, SUVs, trucks, bikes, sedans, hatchbacks, car deals, vehicle history, CarNet"
+    />
     <link rel="icon" href="/assets/img/favicon.ico" />
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/assets/css/bootstrap-icons.css" rel="stylesheet" />
@@ -177,12 +183,10 @@
               <div class="deal-card">
                 <div class="deal-badge">Price Drop</div>
                 <div class="deal-image-container">
-                  <img
-                    loading="lazy"
-                    src="https://images.unsplash.com/photo-1551830820-330a71b99659?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    class="deal-image"
-                    alt="Ford Focus"
-                  />
+                  <div class="no-image">
+                    <i class="bi bi-card-image"></i>
+                    <p>No Image</p>
+                  </div>
                 </div>
                 <div class="deal-details">
                   <h5 class="fw-bold">2018 Ford Focus SE</h5>
@@ -287,7 +291,9 @@
             </div>
           </div>
           <div class="text-center mt-5">
-            <button class="btn btn-primary">Load More Vehicles</button>
+            <button class="btn btn-primary">
+              Load More Vehicles
+            </button>
           </div>
         </div>
       </section>
