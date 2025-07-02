@@ -1,0 +1,22 @@
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Set default expiry for all files
+  ExpiresDefault "access plus 1 year"
+
+  # (Optional) Specific file types, if needed
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Add Cache-Control for performance
+  <FilesMatch "\.(js|css|jpg|jpeg|png|gif|webp|woff2?|ttf|otf|svg)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+</IfModule>

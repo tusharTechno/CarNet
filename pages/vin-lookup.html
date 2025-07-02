@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarNet.com | VIN Decoder Tool</title>
+    <meta name="title" content="CarNet.com | VIN Decoder Tool" />
+    <meta name="description" content="Use CarNet's free VIN Decoder Tool to get detailed vehicle history, specifications, and more by entering your 17-digit VIN." />
+    <meta name="keywords" content="VIN decoder, vehicle history, car specifications, VIN lookup, carNet, vehicle information, car details" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="/assets/img/favicon.ico" />
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/css/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="/assets/img/logo.svg" alt="website-logo" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="nav" class="collapse navbar-collapse justify-content-end">
+          <ul
+            class="navbar-nav mx-auto container justify-content-center justify-content-lg-end"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="vin-lookup.html"
+                ><i class="bi bi-upc-scan me-1"></i>VIN Lookup</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listings.html"
+                ><i class="bi bi-list-ul me-1"></i>Listings</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="compare.html"
+                ><i class="bi bi-arrow-left-right me-1"></i>Compare</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="w-100">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Decode Your VIN</h1>
+            <p class="lead">
+              Enter a 17-digit VIN to get detailed vehicle history and
+              specifications.
+            </p>
+            <form class="search-box">
+              <input
+                type="text"
+                placeholder="Enter VIN (e.g., 1HGCM82633A004352)"
+                maxlength="17"
+                pattern="[A-HJ-NPR-Z0-9]{17}"
+                title="VIN must be 17 characters (letters and numbers, no I, O, Q)"
+              />
+              <a href="#" class="btn btn-primary">Decode Now</a>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ad Banner -->
+      <div class="ad-banner">
+        <div class="container">
+          <div class="ad-placeholder">
+            <div class="ad-content">
+              <i class="bi bi-megaphone"></i>
+              <h5>Advertisement Space</h5>
+              <p>This space is available for your promotional content</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIN Results Section -->
+      <section class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="tool-card">
+                <div class="card-body">
+                  <h5>Vehicle Details: Honda Accord</h5>
+                  <div class="vin-details">
+                    <div class="vin-detail-item">
+                      <i class="bi bi-car-front"></i>
+                      <span><strong>Make:</strong> Honda</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-tag"></i>
+                      <span><strong>Model:</strong> Accord</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-calendar"></i>
+                      <span><strong>Year:</strong> 2003</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-gear"></i>
+                      <span><strong>Engine:</strong> 2.4L 4-Cylinder</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-arrow-right-circle"></i>
+                      <span><strong>Drivetrain:</strong> FWD</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-car-front-fill"></i>
+                      <span><strong>Body Type:</strong> Sedan</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-list"></i>
+                      <span><strong>Trim:</strong> EX</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-gear-wide-connected"></i>
+                      <span
+                        ><strong>Transmission:</strong> 5-Speed Automatic</span
+                      >
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-fuel-pump"></i>
+                      <span><strong>Fuel Type:</strong> Gasoline</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-speedometer"></i>
+                      <span><strong>Horsepower:</strong> 160 hp</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-truck"></i>
+                      <span><strong>Vehicle Type:</strong> Passenger Car</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-geo-alt"></i>
+                      <span><strong>Plant Country:</strong> Japan</span>
+                    </div>
+                    <div class="vin-detail-item">
+                      <i class="bi bi-shield-check"></i>
+                      <span
+                        ><strong>Safety Features:</strong> Dual Airbags,
+                        ABS</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ad Banner -->
+      <div class="ad-banner">
+        <div class="container">
+          <div class="ad-placeholder">
+            <div class="ad-content">
+              <i class="bi bi-megaphone"></i>
+              <h5>Advertisement Space</h5>
+              <p>This space is available for your promotional content</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+      <div class="container">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap"
+        >
+          <img
+            src="/assets/img/logo-white.svg"
+            loading="lazy"
+            alt="website-logo"
+            class="footer-logo"
+          />
+          <p class="mb-0">&copy; 2025 All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+  </body>
+</html>
