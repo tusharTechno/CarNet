@@ -140,7 +140,7 @@ a:hover {
 
 /* Enhanced Navigation */
 .navbar {
-    padding:5px 0;
+    padding: 5px 0;
     background-color: white;
     -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -149,8 +149,8 @@ a:hover {
     z-index: 1000;
 }
 
-.navbar-brand img{
-    width:150px;
+.navbar-brand img {
+    width: 150px;
 }
 
 
@@ -541,8 +541,8 @@ a:hover {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    align-items:center;
-    background-color:#f1f1f1;
+    align-items: center;
+    background-color: #f1f1f1;
 }
 
 .deal-image {
@@ -685,7 +685,7 @@ a:hover {
     border-radius: 6px;
     font-size: 0.9rem;
     transition: background 0.2s;
-    line-height:1.2;
+    line-height: 1.2;
 }
 
 .spec-item:hover {
@@ -794,8 +794,8 @@ a:hover {
     font-size: var(--fs-body);
 }
 
-.footer-logo{
-    width:120px;
+.footer-logo {
+    width: 120px;
 }
 
 
@@ -914,27 +914,47 @@ hr {
     text-align: center;
 }
 
-.no-image p{
+.no-image p {
     font-size: 1.2rem;
-    line-height:1;
-    font-weight:600;
+    line-height: 1;
+    font-weight: 600;
 }
 
 
+.border-dashed {
+    cursor: pointer;
+    min-height: 400px;
+    border-style: dashed !important;
+}
+
+
+
+.compare-model .modal-body.row {
+    row-gap: 2rem;
+}
+
 /** 404 **/
 
-.error-section{
-    height:calc(100svh - 136px);
+.error-section {
+    height: calc(100svh - 136px);
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
 /* Responsive Adjustments */
 
+@media (max-width: 1300px) {
+    .modal-xl {
+        max-width: 90% !important;
+        margin-inline: auto;
+    }
+}
+
+
 @media (max-width: 991px) {
-    .navbar-nav{
-        margin-top:10px;
+    .navbar-nav {
+        margin-top: 10px;
     }
 
     .navbar .navbar-collapse {
@@ -942,15 +962,15 @@ hr {
         left: 0;
         top: 89%;
         width: 100%;
-        background:white;
+        background: white;
     }
 }
 
 
 @media (max-width: 768px) {
 
-    .navbar-brand img{
-        width:120px;
+    .navbar-brand img {
+        width: 120px;
     }
 
     .testimonial-card {
@@ -980,16 +1000,6 @@ hr {
         justify-content: flex-start;
         flex-wrap: nowrap;
         overflow-y: hidden;
-    }
-
-    .cta-buttons {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
     }
 
     .footer .row>div {
